@@ -18,7 +18,7 @@ fn traverse_map(map: &str, right: usize, down: usize) -> usize {
     let mut tree_counter = 0;
     for (i, line) in map.lines().step_by(down).enumerate() {
         let x_pos = i * right % line.len();
-        if &line[x_pos..x_pos + 1] == TREE {
+        if &line[x_pos..=x_pos] == TREE {
             tree_counter += 1;
         }
     }
