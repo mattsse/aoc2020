@@ -14,7 +14,6 @@ fn main() {
     println!("{} * {} * {} = {}", n1, n2, n3, n1 * n2 * n3);
 }
 
-
 fn sum2(nums: &[u32]) -> Option<(u32, u32)> {
     let mut i = 0;
     let mut j = nums.len() - 1;
