@@ -9,7 +9,7 @@ fn main() {
         .map(Result::unwrap)
         .collect::<Vec<_>>();
     numbers.sort();
-    let mut solution = sum3(&numbers);
+    let solution = sum3(&numbers);
     let (n1, n2, n3) = solution.expect("No solution");
     println!("{} * {} * {} = {}", n1, n2, n3, n1 * n2 * n3);
 }
