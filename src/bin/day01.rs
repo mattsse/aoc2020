@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use std::str::FromStr;
 
 use aoc2020::read_to_string;

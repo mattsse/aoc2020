@@ -1,3 +1,4 @@
+#![allow(dead_code)]
 use aoc2020::read_to_string;
 
 fn main() {
